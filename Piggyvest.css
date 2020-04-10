@@ -1,0 +1,140 @@
+body{
+    background-color: #ADD8E6;
+}
+
+.logo{
+    text-align: center;
+}
+
+.piggy-big{
+   display: inline-block;
+}
+
+.piggy-small{
+    display: none;
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    width: 38%;
+    padding: 3.2px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.secure{
+    color: #ADD8E6;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    font-size: 24px;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+}
+
+.my-form{
+    margin:32px auto 0 auto;
+    width: 90%;
+}
+
+
+.p-heading{
+    font-size: 16px;
+    color: #4a5568;
+    text-align: center;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.item{
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    margin: 0px 0px 5px;
+    line-height: 0.2;
+    font-weight: 700;
+    color: black;
+}
+
+.select-items{
+    color: #1a202c;
+    outline: 0;
+    padding: 12px 8px 12px 15px;
+    background-color: #edf2f7;
+    border: none;
+    
+}
+
+
+
+.account{
+    color: black;
+    background-color: #ADD8E6;
+    /* height: 80px; */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 40px 16px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.login{
+    text-align: center;
+    margin-top: 32px;
+    padding: 4px 12px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 400px) {
+    .secure{
+        font-size: 20px;
+    }
+    .p-heading{
+        font-size: 16px;
+    }
+    .item{
+        font-size: 11px;
+    }
+    .container{
+        width: 90%;  
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .piggy-big{
+        display: none;
+     }
+     
+     .piggy-small{
+         display: inline-block;
+     }
+
+     .container{
+        width: 80%;  
+    }
+}
